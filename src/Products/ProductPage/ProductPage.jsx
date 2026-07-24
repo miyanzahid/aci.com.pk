@@ -4,7 +4,7 @@ import ProductSubHeading from '../ProductPage/ProductSuHeading';
 import ProductList from './ProductList';
 import ProductTable from './ProductTable';
 import { ProductListData } from './ProductListData';
-import { useLocation } from 'react-router-dom';
+// import { useLocation } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import PageHeader from '../../Heading/PageHeader';
 import ParagraphHeading from '../../Heading/ParagraphHeading';
@@ -14,7 +14,7 @@ import Button from '../../Button/Button';
 function ProductPage() {
 	const { id } = useParams();
 
-	const location = useLocation();
+	// const location = useLocation();
 
 	// console.log(location.pathname);
 

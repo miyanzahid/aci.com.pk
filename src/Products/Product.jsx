@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './product.css';
 import ProductCard from './ProductCard';
-import Button from '../Button/Button';
+// import Button from '../Button/Button';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
