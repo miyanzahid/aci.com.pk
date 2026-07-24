@@ -58,7 +58,12 @@ export const ProductListData = [
 					'Formic acid is flammable; please take necessary precautions to avoid its combustion.',
 			},
 		],
-		note: 'Please note that the above mentioned safety measures are ‘guidelines’ only. If you should require further information, please do not hesitate to Contact us.',
+		note: (
+			<p>
+				If you should require further information, please do not hesitate to{' '}
+				<a href="/Contact-US">Contact us</a>.
+			</p>
+		),
 		tableheading: 'Technical specifica ons',
 		ProdList: [
 			{ name: 'Colour ', score: 'Colourless' },
@@ -152,7 +157,12 @@ export const ProductListData = [
 					'Goggles and rubber gloves should be worn whilst handling the acid. Avoid handling the acid in an unventilated area.',
 			},
 		],
-		note: 'Please note that the above mentioned safety measures are ‘guidelines’ only. If you should require further information, please do not hesitate to Contact us.',
+		note: (
+			<p>
+				If you should require further information, please do not hesitate to{' '}
+				<a href="/Contact-US">Contact us</a>.
+			</p>
+		),
 		tableheading: 'Technical Specifications',
 		ProdList: [
 			{
@@ -225,12 +235,8 @@ export const ProductListData = [
 				ACI’s Sodium Sulphate in available is durable 50 Kg bags or in bulk as
 				per client’s requirement.
 				<p>
-					Note:{' '}
-					<p>
-						Please note that the above mentioned safety measures are
-						‘guidelines’ only. If you should require further information, please
-						do not hesitate to Contact us.
-					</p>
+					Note: If you should require further information, please do not
+					hesitate to <a href="/Contact-US">Contact us</a>.
 				</p>
 			</p>
 		),
@@ -330,7 +336,12 @@ export const ProductListData = [
 					'Contact with the eyes or skin can cause serious permanent damage. In case of contact with eyes or skin, wash the affected area with plenty of water for at least 15 minutes and seek medical help immediately.',
 			},
 		],
-		note: 'Please note that the above mentioned safety measures are ‘guidelines’ only. If you should require further information, please do not hesitate to Contact us.',
+		note: (
+			<p>
+				If you should require further information, please do not hesitate to{' '}
+				<a href="/Contact-US">Contact us</a>.
+			</p>
+		),
 		tableheading: 'TECHNICAL SPECIFICATIONS OF ACI’S Sulphuric Acid',
 		ProdList: [
 			{
@@ -417,7 +428,12 @@ export const ProductListData = [
 					'Aluminum sulphate may corrode metals in the presence of moisture.',
 			},
 		],
-		note: 'Please note that the above mentioned safety measures are ‘guidelines’ only. If you should require further information, please do not hesitate to Contact us.',
+		note: (
+			<p>
+				If you should require further information, please do not hesitate to{' '}
+				<a href="/Contact-US">Contact us</a>.
+			</p>
+		),
 
 		tableheading: 'TECHNICAL SPECIFICATIONS OF ACI’S Sulphuric Acid',
 		ProdList: [
@@ -553,7 +569,12 @@ export const ProductListData = [
 					'Acetec® is used in same or even less quantity than Acetic Acid in cotton and polyester processing.',
 			},
 		],
-		note: 'If you should require further information, please do not hesitate to Contact us.',
+		note: (
+			<p>
+				If you should require further information, please do not hesitate to{' '}
+				<a href="/Contact-US">Contact us</a>.
+			</p>
+		),
 
 		tableheading: 'Technical Specifications of ACI’s ACETEC®',
 		ProdList: [
