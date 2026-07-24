@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 export const ProductListData = [
 	{
 		id: 1,
@@ -61,7 +62,7 @@ export const ProductListData = [
 		note: (
 			<p>
 				If you should require further information, please do not hesitate to{' '}
-				<a href="/Contact-US">Contact us</a>.
+				<Link to="/Contect-Us">Contact us</Link>.
 			</p>
 		),
 		tableheading: 'Technical specifica ons',
@@ -160,7 +161,7 @@ export const ProductListData = [
 		note: (
 			<p>
 				If you should require further information, please do not hesitate to{' '}
-				<a href="/Contact-US">Contact us</a>.
+				<a href="/#">Contact us</a>.
 			</p>
 		),
 		tableheading: 'Technical Specifications',
@@ -236,7 +237,7 @@ export const ProductListData = [
 				per client’s requirement.
 				<p>
 					Note: If you should require further information, please do not
-					hesitate to <a href="/Contact-US">Contact us</a>.
+					hesitate to <a href="/#">Contact us</a>.
 				</p>
 			</p>
 		),
@@ -339,7 +340,7 @@ export const ProductListData = [
 		note: (
 			<p>
 				If you should require further information, please do not hesitate to{' '}
-				<a href="/Contact-US">Contact us</a>.
+				<a href="/#">Contact us</a>.
 			</p>
 		),
 		tableheading: 'TECHNICAL SPECIFICATIONS OF ACI’S Sulphuric Acid',
@@ -431,7 +432,7 @@ export const ProductListData = [
 		note: (
 			<p>
 				If you should require further information, please do not hesitate to{' '}
-				<a href="/Contact-US">Contact us</a>.
+				<a href="/#">Contact us</a>.
 			</p>
 		),
 
@@ -572,7 +573,7 @@ export const ProductListData = [
 		note: (
 			<p>
 				If you should require further information, please do not hesitate to{' '}
-				<a href="/Contact-US">Contact us</a>.
+				<a href="/#">Contact us</a>.
 			</p>
 		),
 
@@ -603,7 +604,7 @@ export const ProductListData = [
 				25 Kgs net in PP begs.
 				<p>
 					Note: If you should require further information, please do not
-					hesitate to <a href="/Contact-US">Contact us</a>.
+					hesitate to <a href="/#">Contact us</a>.
 				</p>
 			</p>
 		),
@@ -638,7 +639,7 @@ export const ProductListData = [
 				drums.
 				<p>
 					Note: If you should require further information, please do not
-					hesitate to <a href="/Contact-US">Contact us</a>.
+					hesitate to <a href="/#">Contact us</a>.
 				</p>
 			</p>
 		),

@@ -52,19 +52,19 @@ const Footer = () => {
 							</p> */}
 						</span>
 						<div className="social-Links py-3">
-							<a href="/Contact-US">
+							<a href="/#">
 								<FaTwitter />
 							</a>
-							<a href="/Contact-US">
+							<a href="/#">
 								<FaLinkedin />
 							</a>
-							<a href="/Contact-US">
+							<a href="/#">
 								<FaFacebookSquare />
 							</a>
-							<a href="/Contact-US">
+							<a href="#">
 								<FaSkype />
 							</a>
-							<a href="/Contact-US">
+							<a href="#">
 								<FaPinterestSquare />
 							</a>
 						</div>
@@ -91,19 +91,19 @@ const Footer = () => {
 							</li>
 							<li>
 								{' '}
-								<a href="/Contact-US" className="footerLinks">
+								<a href="#" className="footerLinks">
 									Careers
 								</a>
 							</li>
 							<li>
 								{' '}
-								<a href="/Contact-US" className="footerLinks">
+								<a href="#" className="footerLinks">
 									Get Quote
 								</a>
 							</li>
 							<li>
 								{' '}
-								<a href="/Contact-US" className="footerLinks">
+								<a href="#" className="footerLinks">
 									Events
 								</a>
 							</li>
@@ -115,31 +115,31 @@ const Footer = () => {
 						<ul className="m-0 p-0">
 							<li>
 								{' '}
-								<a href="/Contact-US" className="footerLinks lh-1 ">
+								<a href="#" className="footerLinks lh-1 ">
 									Head Office: 18Km Multan Road, Lahore.
 								</a>
 							</li>
 							<li>
 								{' '}
-								<a href="/Contact-US" className="footerLinks">
+								<a href="#" className="footerLinks">
 									+92 (0)42-3597 1446-8
 								</a>
 							</li>
 							<li>
 								{' '}
-								<a href="/Contact-US" className="footerLinks">
+								<a href="#" className="footerLinks">
 									Site: 10KM Sheikhupura-Faisalabad road Kharianwala.
 								</a>
 							</li>
 							<li>
 								{' '}
-								<a href="/Contact-US" className="footerLinks">
+								<a href="#" className="footerLinks">
 									Info@aci.com.pk
 								</a>
 							</li>
 							<li>
 								{' '}
-								<a href="/Contact-US" className="footerLinks">
+								<a href="#" className="footerLinks">
 									Mon - Sat : 9:00 AM to 5:00 PM
 								</a>
 							</li>
