@@ -12,7 +12,7 @@ const Navbar = () => {
 		{ id: 2, listTitle: 'SULPHONIC ACID (LABSA)' },
 		{ id: 3, listTitle: 'SODIUM SULPHATE' },
 		{ id: 5, listTitle: 'ALUMINUM SULPHATE' },
-		{ id: 6, listTitle: 'ACETECH®' },
+		{ id: 6, listTitle: 'ACETEC®' },
 		{ id: 7, listTitle: 'SOAP NOODLES' },
 		{ id: 8, listTitle: 'GLYCERIN' },
 	];

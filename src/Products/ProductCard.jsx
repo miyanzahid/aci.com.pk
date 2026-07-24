@@ -1,8 +1,8 @@
 import React from 'react';
-import productimg4 from '../Asset/sos.jpg';
-import productimg1 from '../Asset/h2so4.jpg';
-import productimg3 from '../Asset/46product_462.jpg';
-import productimg2 from '../Asset/LABSA.jpg';
+import productimg4 from '../Asset/Sodium.png';
+import productimg1 from '../Asset/Formic1.png';
+import productimg3 from '../Asset/sulphuric.png';
+import productimg2 from '../Asset/labsaAI.png';
 import { Link } from 'react-router-dom';
 
 function ProductCard() {

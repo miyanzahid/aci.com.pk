@@ -509,7 +509,7 @@ export const ProductListData = [
 	},
 	{
 		id: 6,
-		title: 'ACETECH',
+		title: 'ACETEC®',
 		description: '',
 		list1: [
 			{
