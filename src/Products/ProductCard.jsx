@@ -1,6 +1,6 @@
 import React from 'react';
-// import productimg1 from '../Asset/bag.jpg';
-// import productimg2 from "../Asset/349product_290.jpg";
+import productimg4 from '../Asset/sos.jpg';
+import productimg1 from '../Asset/h2so4.jpg';
 import productimg3 from '../Asset/46product_462.jpg';
 import productimg2 from '../Asset/LABSA.jpg';
 import { Link } from 'react-router-dom';
@@ -12,7 +12,7 @@ function ProductCard() {
 			title: 'FORMIC ACID',
 			discription:
 				'Formic Acid is the simplest and strongest of the series of aliphatic monobasic acids. It can be represented chemically as H–COOH. It is a colourless liquid with a pungent, penetrating odour.',
-			img: productimg3,
+			img: productimg1,
 			Linlroute: '/Productpage/1',
 		},
 		{
@@ -37,13 +37,21 @@ function ProductCard() {
 			img: productimg3,
 			Linlroute: '/Productpage/4',
 		},
+		{
+			id: 4,
+			title: 'Sodium Sulphate',
+			discription:
+				'Sodium Sulphate is a white, orthorhombic crystalline solid at room temperature. It has a monoclinic structure at temperature above 100oC,and assumes a hexagonal structure at temperature above 250oC.',
+			img: productimg4,
+			Linlroute: '/Productpage/4',
+		},
 	];
 
 	return (
 		<>
 			{productCards &&
 				productCards.map((items) => (
-					<div className="col-md-4  m-2" key={items.id}>
+					<div className="col-md-3  m-2" key={items.id}>
 						<figure>
 							<div className="product-container">
 								<img src={items.img} alt="" className=" d-block product-img" />
