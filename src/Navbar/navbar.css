@@ -1,0 +1,136 @@
+.navbar-bgcolor {
+	background-color: #f6f6f6;
+	padding: 20px 0;
+}
+.dropdown-content ul {
+	margin: 0;
+	padding: 0;
+}
+li .nav-link {
+	color: #00076e !important;
+	font-size: 17px;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	padding: 15px 20px !important;
+	transition: all 1s;
+
+	border-right: 1px dashed #00076e;
+}
+li .nav-link:hover {
+	color: #3c800c !important;
+	/* font-weight: 00; */
+	font-size: 18px;
+	/* line-height:20px; */
+}
+.product-mt {
+	margin: 12px 0px !important;
+}
+.dropbtnss {
+	color: #00076e !important;
+	font-size: 17px;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	padding: 15px 20px !important;
+	transition: all 1s;
+
+	border-right: 1px dashed #00076e;
+}
+.dropbtnss:hover {
+	font-size: 18px;
+	color: #3c800c !important;
+	cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: auto;
+	background-color: white;
+	min-width: 260px;
+	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: #00076e;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: 600;
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content li {
+	border-bottom: 1px solid gray;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #2b6137;
+	color: white !important;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.requestquote-btn {
+	background: linear-gradient(to left, #1e8133 50%, #141414 50%);
+	color: white;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	background-size: 200% 100%;
+	background-position: right;
+	transition: 1s ease-out;
+	font-size: 18px;
+	font-weight: 800;
+	border: 3px solid #1e8133;
+}
+.requestquote-btn a {
+	align-self: center;
+	color: white;
+	text-decoration: none;
+}
+
+.requestquote-btn:hover {
+	background-position: left;
+	color: white;
+}
+.color-htc {
+	color: #00076e !important;
+}
+
+@media (max-width: 1100px) {
+	li .nav-link {
+		border-right: none;
+	}
+	.dropbtnss {
+		border-right: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.requestquote-btn {
+		display: none;
+	}
+}
+@media screen and (max-width: 420px) {
+	.requestquote-btn {
+		display: none;
+	}
+}
+.logotext {
+	font-size: 12px !important;
+}

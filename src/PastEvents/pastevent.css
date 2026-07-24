@@ -1,0 +1,77 @@
+.pastevents-bgimg{
+  background-image: url('../Asset/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+}
+/* .pasteventimg{
+  width: 33% !important;
+}
+.carousel {
+  width: auto;
+  
+  } */
+  .pastevent-heading{
+    font-family: 'Alegreya' !important;
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    color: white !important;
+   
+    
+  }
+  .pastevent-set-padding{
+    padding-top: 5.7em  !important;
+    padding-bottom: 1em !important;
+  }
+  .pastevents-hr{
+    color: yellow !important;
+    height: 3px !important;
+    width: 10vh !important;
+    opacity: 1 !important;
+    margin-top: 0 !important;
+   
+    margin-bottom: 6vh !important;
+    
+  }
+
+  .pastevents-img{
+    padding: 12px 0;
+  }
+
+  
+   @media (min-width: 200px){
+    .pastevents-img{
+      display: block;
+    }
+   }
+
+   .image-container{
+    
+    
+   
+    width: 33%;
+    overflow: hidden; 
+   
+   }
+   .pastevents-img{
+    width: 33%;
+    overflow: hidden;
+    position: relative;
+    filter: brightness(100%);
+    transition: .5s;
+   
+   }
+   
+   /* .image-container:hover .pastevents-img{
+   
+    filter: brightness(70%);
+    transform: scale(1.1);
+
+
+   } */
+   .pastevents-img:hover{
+    filter: brightness(70%);
+    transform: scale(1.1);
+
+   }

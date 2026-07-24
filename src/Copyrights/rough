@@ -1,0 +1,8 @@
+<div className="row lastItemPadding">
+        <div className="col-lg-6 col-sm-12">
+          <p className='footer-lasttext'>2012 Akbari Agrichem (Pvt) Ltd. All Rights Reserved</p>
+        </div>
+        <div className="col-lg-6 col-sm-12">
+          <p className='footer-lasttext'>Designed & Developed by: Microperts</p>
+        </div>
+        </div>

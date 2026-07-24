@@ -1,0 +1,19 @@
+.topnav-bg{
+  /* background-image: url('../Asset/head-top-band1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+   */
+  background-color: #2a2a2a;
+  
+}
+
+@media (max-width: 650.98px) { 
+  .topnav-text{
+    display: none;
+  }
+ }
+
+
+
+ 

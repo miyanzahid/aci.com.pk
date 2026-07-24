@@ -1,0 +1,33 @@
+.query-bgcolor {
+
+  /* background: url("../Asset/bg.jpg") no-repeat right center, linear-gradient(#103d68, #103d68); */
+  background-color: #0f3a18;
+}
+
+.query-text {
+  font-size: 1.5em !important;
+  font-weight: 300 !important;
+  color: white !important;
+  font-family: 'Open Sans' !important;
+}
+
+
+
+@media (max-width:991.98px) {
+  .forSmallScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .query-btn {
+    margin: 5vh 0 !important;
+  }
+
+  .query-text {
+    font-size: 1em !important;
+  }
+}
+
+  

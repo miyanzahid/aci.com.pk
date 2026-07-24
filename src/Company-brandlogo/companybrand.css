@@ -1,0 +1,10 @@
+.email-info a {
+  color: #9692a0 !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media (max-width: 767.98px) {
+  img {
+    display: none;
+  }
+}
