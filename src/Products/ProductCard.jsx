@@ -43,7 +43,7 @@ function ProductCard() {
 			discription:
 				'Sodium Sulphate is a white, orthorhombic crystalline solid at room temperature. It has a monoclinic structure at temperature above 100oC,and assumes a hexagonal structure at temperature above 250oC.',
 			img: productimg4,
-			Linlroute: '/Productpage/4',
+			Linlroute: '/Productpage/3',
 		},
 	];
 
