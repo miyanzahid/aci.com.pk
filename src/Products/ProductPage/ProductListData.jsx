@@ -597,8 +597,16 @@ export const ProductListData = [
 		title: 'SOAP NOODLES',
 		description:
 			'Silk white Soap Noodles is the latest diversification of Akbari Chemical Industries (Pvt) Limited. The product is used to produce beauty soap and is mainly available in two grades (90:10 and 80:20). We also offer customized solutions according to customer’s requirement. At ACI every batch is prepared under the keen supervision of highly skilled engineers and quality assurance team ensuring that only the best quality material is dispatched.',
-		subtitle1: 'Available Packaging',
-		subdescriptions: '25 Kgs net in PP begs.',
+		subtitle2: 'Available Packaging',
+		subdescriptions2: (
+			<p>
+				25 Kgs net in PP begs.
+				<p>
+					Note: If you should require further information, please do not
+					hesitate to <a href="/Contact-US">Contact us</a>.
+				</p>
+			</p>
+		),
 
 		tableheading: 'Technical Specifications of ACI’s ACETEC®',
 		ProdList: [
@@ -623,9 +631,17 @@ export const ProductListData = [
 		title: 'GLYCERIN',
 		description:
 			'ACI’s refined glycerin is a multi-functional product. Its odorless and colorless properties make it versatile for use in many industries. Commonly utilized in personal care and cosmetics for its moisture-retaining abilities, it is also widely employed as a sweetener in food due to its sweet taste. Additionally, its non-toxic nature makes it suitable for pharmaceutical products.',
-		subtitle1: 'Available Packaging',
-		subdescriptions:
-			'ACI’s refined glycerin is supplied in durable 250 kg polyethylene (PE) drums.',
+		subtitle2: 'Available Packaging',
+		subdescriptions2: (
+			<p>
+				ACI’s refined glycerin is supplied in durable 250 kg polyethylene (PE)
+				drums.
+				<p>
+					Note: If you should require further information, please do not
+					hesitate to <a href="/Contact-US">Contact us</a>.
+				</p>
+			</p>
+		),
 
 		tableheading: 'Technical Specifications of ACI’s ACETEC®',
 		ProdList: [
