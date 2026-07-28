@@ -2,8 +2,8 @@ import React from 'react';
 import './navbarimg.css';
 import img1 from '../Asset/Screenshot 2023-05-15 at 4.39.41 PM.png';
 // import img2 from '../Asset/Pic-ok.png';
-import img5 from '../Asset/New_Slider_1.jpg';
-import img3 from '../Asset/New_slider2.jpg';
+import img5 from '../Asset/slider_1new.jpeg';
+import img3 from '../Asset/Slider2_new.jpeg';
 // import img4 from '../Asset/page-1.jpg';
 // import img from "../Asset/Screenshot 2023-05-15 at 4.39.41 PM.png";
 
@@ -45,14 +45,14 @@ const NavbarImgslider = () => {
 				</div>
 				{/* <div className="carousel-item" data-bs-interval="10000">
           <img src={img4} className="d-block w-100" style={{height:"80vh"}} alt="..." /> </div> */}
-				<div className="carousel-item" data-bs-interval="10000">
+				{/* <div className="carousel-item" data-bs-interval="10000">
 					<img
 						src={img5}
 						className="d-block w-100"
 						style={{ height: '80vh' }}
 						alt="..."
 					/>{' '}
-				</div>
+				</div> */}
 			</div>
 			<button
 				className="carousel-control-prev "
